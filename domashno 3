@@ -1,0 +1,23 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main()
+{int n,divider,MaxDivider;
+bool prime=true;
+ cout<< "n=";
+ cin>>n;
+ MaxDivider=sqrt(n);
+    for(divider=2;divider<=MaxDivider;divider++)
+    {
+        if ((n%divider)==0 )
+        {
+            prime=false;
+            break;
+        }
+    }
+    if (prime)
+{
+cout<<n<< "is prime"<<endl;
+}else
+{cout<<n<< "is not prime"<<endl;}
+   return 0;}
