@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+double S,x,n,fact,stepen;
+cout<< "x,n";
+cin>>x>>n;
+fact=S=stepen=1;
+for(int i=1;i<=n;i++)
+{fact*=i;
+stepen*=x;
+S+=stepen/fact
+}
+cout<< "S:"S<<endl;
+    return 0;}
